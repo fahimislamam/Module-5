@@ -203,3 +203,36 @@ main section {
     text-align: center;
     margin-top: 40px;
 }
+/* footer section */
+footer{
+    display: flex;
+    background: #fff8f3;
+    gap: 80px;
+    margin-top: 50px;
+    padding: 90px 150px;
+}
+.footer-column{
+    width: 50%;
+}
+.social-link a{
+    margin-right: 26px;
+    display: inline-block;
+    margin-top: 25px;
+    width: 24px;
+    height: 24px;
+    
+
+}
+.contact input[type="text"], .contact input[type="email"],textarea{
+    display: block;
+    margin-bottom: 20px;
+    padding: 15px 35px;
+    color: #757575;
+    border: 0;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    width: 100%;
+}
